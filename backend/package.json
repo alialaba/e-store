@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "e-store is an e-commerce website",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alialaba/e-store.git"
-  },
+  
   "author": "",
   "license": "ISC",
   "bugs": {
