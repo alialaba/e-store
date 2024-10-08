@@ -9,7 +9,7 @@ const productSchema = new Schema({
     sizes: {type: Array, required: true},
     image: {type:[ String], required: true},
     bestseller: {type: Boolean},
-    date: {type: Date, required: true}
+    date: {type: Number, required: true}
 
 })
 
