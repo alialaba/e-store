@@ -27,3 +27,25 @@ a.active hr{
     color: #fff;
     }
   }
+
+  .linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #000 20%, #4caf50 40%, #4caf50 60%, #000 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 2s linear infinite;
+   
+  }
+
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }

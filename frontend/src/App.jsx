@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Orders from "./pages/Orders";
 import PlaceOrder from "./pages/PlaceOrder";
 import Product from "./pages/Product"
+import Footer from './components/Footer';
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
@@ -30,6 +31,7 @@ function App() {
         <Route path='/place-order' element={<PlaceOrder/>}/>
         <Route path='/product/:productId' element={<Product/>}/>
        </Routes>
+       <Footer/>
     </div>
   )
 }
